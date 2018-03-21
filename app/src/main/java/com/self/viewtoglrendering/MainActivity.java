@@ -1,8 +1,8 @@
 package com.self.viewtoglrendering;
 
 import android.opengl.GLSurfaceView;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -10,7 +10,7 @@ import android.webkit.WebViewClient;
 import com.self.viewtoglrendering.cuberenerer.CubeGLRenderer;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private GLSurfaceView mGLSurfaceView;
     private GLRenderable mGLLinearLayout;
